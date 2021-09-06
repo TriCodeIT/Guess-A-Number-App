@@ -25,7 +25,7 @@ const GameScreen = (props) => {
   const currentLow = useRef(1);
   const currentHight = useRef(100);
 
-  const { userChoice, onGameOver} = props
+  const { userChoice, onGameOver } = props;
 
   useEffect(() => {
     if (currentGuess === userChoice) {
