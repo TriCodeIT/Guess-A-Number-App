@@ -11,7 +11,8 @@ const GameOverScreen = (props) => {
       <TitleText>The Game is Over</TitleText>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/success.png")}
+          // source={require("../assets/success.png")}
+          source={{uri: 'https://static01.nyt.com/images/2021/01/20/sports/19ALTsummit-k2-2-print/19summit-k2-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale'}}
           style={styles.image}
           resizeMode="cover"
         />
